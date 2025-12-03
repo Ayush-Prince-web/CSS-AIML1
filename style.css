@@ -1,0 +1,87 @@
+h1{
+    background-color: black;
+    color:white;
+    height:55px;
+    text-align: center;
+    padding-top:12px;
+    font-weight: 800;
+}
+.outer{
+    margin:0 450px;
+    height:470px;
+    width: 500px;
+    display: inline-block;
+    padding:10px;
+    border:2px solid rgba(0, 0, 0, 0.101);
+    border-radius: 5px;
+
+}
+img{
+    width:300px;
+    margin-left:55px;
+    padding:15px;
+}
+button{
+    display: block;
+    text-align:center;
+    width:400px;
+    height:50px;
+    margin-top:12px;
+    font-size: larger;
+    font-weight: 700;
+    background-color:rgb(113, 199, 233);
+}
+.ruppee{
+    color:green;
+    font-size:larger;
+    font-weight: 700;
+}
+.cut{
+    text-decoration:red line-through;
+}
+.property h3{
+    margin-bottom:5px;
+}
+.property p{
+    margin-top:5px;
+    margin-bottom: 3px;
+}
+.card1{
+    height:300px;
+    width:500px;
+    border:2px solid rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+    border-radius:5px;
+}
+button:hover{
+    background-color:red;
+    color:white;
+    transition:2s;
+    font-style: italic;
+}
+button:active{
+    background-color: green;
+    transition:3s;
+    color:goldenrod;
+}
+.outer::selection{
+    transition:2s;
+    background-color: limegreen;
+}
+.ruppee:hover{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition:3s;
+    color:goldenrod;
+}
+.cut:hover{
+    font-size:20px;
+    color:red;
+    transition:1s;
+}
+img:hover{
+    height:500px;
+    width:500px;
+    transition:2s;
+    background-color: goldenrod;
+}
