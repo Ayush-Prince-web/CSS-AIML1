@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center:space-evenly; 
+    align-items: center;
+gap:100px  100px;
+border: 2px solid color :read-only;
+}
+.box{
+height : 100px;
+width :   100px; 
+border: 1px solid black;
+margin: 7px;
+}
+.cont-grid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    /* grid-template-rows: 100px 100px; */
+    border: 1px solid red;
+    gap:10px 20 px;
+    /* pahla 10 row ke loiye hai     20 columns ke lye hai */
+    align-content:stretch;
+    grid-template-areas: rgb(119, 10, 244);
+}
+.grid-items{
+    height: 100px;
+    /* width: 100px; */
+    border:2px solid black;
+    
+}
+
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+<div class="box">1</div>
+<div class="box">2</div>
+<div class="box">3</div>
+<div class="box">4</div>
+</div>
+<div class="cont-grid">
+    <div class="grid-items">1</div>
+     <div class="grid-items"></div>
+         <div class="grid-items"></div>
+         <div class="grid-items"></div>
+         <div class="grid-items"></div>
+         <div class="grid-items"></div>
+         <div class="grid-items"></div>
+         <div class="grid-items"></div>
+         <div class="grid-items"></div>
+ </div>
+fit content 
+
+
+</div>
+    
+</body>
+</html>
